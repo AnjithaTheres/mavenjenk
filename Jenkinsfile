@@ -28,12 +28,12 @@
         }
     }
   
-        stage('Slack it'){
-            steps {
-                slackSend channel: '#slack-test-channel', 
-                          message: 'Hello, world'
-            }
-        }
+//         stage('Slack it'){
+//             steps {
+//                 slackSend channel: '#slack-test-channel', 
+//                           message: 'Hello, world'
+//             }
+//         }
     }
 
 }
